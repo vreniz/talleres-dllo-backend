@@ -7,10 +7,10 @@
     }
 }
 
-// Example usage:
+
 let result1 = resolvedor(1, 5, 4, true);  
 let result2 = resolvedor(1, 5, 4, false); 
 
-// Display results on the webpage
+// Display 
 document.getElementById("result1").innerText = "Positive result: " + result1;
 document.getElementById("result2").innerText = "Negative result: " + result2;
