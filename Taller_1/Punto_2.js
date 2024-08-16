@@ -12,5 +12,5 @@ let result1 = resolvedor(1, 5, 4, true);
 let result2 = resolvedor(1, 5, 4, false); 
 
 // Display 
-document.getElementById("result1").innerText = "Positive result: " + result1;
-document.getElementById("result2").innerText = "Negative result: " + result2;
+document.getElementById("result1").innerText = "Resultado Positivo: " + result1;
+document.getElementById("result2").innerText = "Resultado Negativo: " + result2;
