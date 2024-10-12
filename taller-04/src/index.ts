@@ -5,7 +5,7 @@ import path from 'path';
 const app = express();
 app.use(express.json());
 
-// Cargar datos del archivo JSON
+
 const dataPath = path.join(__dirname, '../datos.json');
 const users = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
@@ -50,7 +50,7 @@ app.post('/users', (req: Request, res: Response) => {
     const newUser = { id, name, hobbies, years, team, faction };
     users.push(newUser);
 
-    // Escribir el nuevo usuario en el archivo JSON
+    
     fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
 
     res.status(201).json(newUser);
