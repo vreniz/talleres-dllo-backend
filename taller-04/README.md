@@ -1,6 +1,5 @@
 # Taller-04: API 
 
-Este proyecto es una API creada con Express y TypeScript, que maneja datos de usuarios, equipos, hobbies y facciones.
 
 ## Requisitos
 
@@ -48,7 +47,7 @@ POST /users para agregar un nuevo usuario:
 * URL: http://localhost:3000/users
 * Body (JSON):{
 
- }
+               }
 
 
 
