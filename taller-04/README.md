@@ -1,7 +1,6 @@
 # Taller-04: API 
 
 
-## Requisitos
 
 - Node.js (versión 18.x o superior)
 - npm (viene con Node.js)
