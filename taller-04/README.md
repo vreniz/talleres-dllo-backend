@@ -13,12 +13,15 @@
    ```bash
    git clone https://github.com/tu-usuario/taller-04.git
 
-2.  npm install express
+2.
+    ```bash
+    npm install express
     npm install
     
-3.   nvm use 18
+4.   nvm use 18
    
-5.   npm install -g typescript
+5.   ```bash
+     npm install -g typescript
      npm install -g ts-node
 
      EJECUCION: npx ts-node taller-04/src/index.ts
